@@ -1,0 +1,441 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+header div.logo{
+	width: 100%;
+	height: 100px;
+	background-color: #f6f9f9;
+}
+
+/*   ------- LOGO --------- */
+
+div.logo a{
+	float: left;
+	display: block;
+	width: 160px;
+	height: 37px;
+	font: bold 30px Arial;
+	color: #2d3950;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-left: 10%;
+}
+
+div.logo a img{
+	position: relative;
+	top: 7px;
+	padding-right: 7px;
+}
+
+/* ----------- block with 'STRICT' (intro) ---- */
+
+div.intro{
+	width: 100%;
+	height: 800px;
+	background-image: url(IMG/bg_intro.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+h1{
+	font: bold 120px Arial;
+	color: white;
+	text-align: center;
+	margin-top: 15%;
+}
+
+div.line{
+	height: 2px;
+	width: 45%;
+	margin: 10px auto 35px auto;
+	display: block;
+	background-color: #15a4fa;
+}
+
+div.intro p{
+	color: white;
+	text-align: center;
+	font: 20px Arial;
+}
+
+/*  ---- button 'Call to action' ---- */
+
+button.call{
+	width: 178px;
+	height: 55px;
+	display: block;
+	border: 1px solid #15a4fa;
+	background: none;
+	border-radius: 4px;
+	font: 18px Arial;
+	color: white;
+	margin: 60px auto 0 auto;
+	cursor: pointer;
+}
+
+/*  ---- button 'Call to action' on :hover ---- */
+
+button.call:hover{
+	width: 178px;
+	height: 60px;
+	display: block;
+	border: 2px solid #15a4fa;
+	background: #15a4fa;
+	border-radius: 4px;
+	font: 19px Arial;
+	color: white;
+	margin: 60px auto 0 auto;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+div.intro a.arrow{
+	display: block;
+	width: 20px;
+	height: 12px;
+	background-image: url(IMG/arrow.png);
+	background-repeat: no-repeat;
+	margin:170px auto 0px auto;
+}
+
+/*  ------- section 'Simple & pure' ------ */
+
+#simple_and_pure{
+	float: left;
+	min-height: 340px;
+	width: 100%;
+	background-color: #f6f9f9;
+} 
+
+#simple_and_pure h2{
+ 	text-align: center;
+ 	color: #2d3950;
+ 	font: 40px Arial;
+ 	margin-top: 75px;
+ }
+
+ #simple_and_pure p{
+ 	color: #999999;
+ 	font: 20px Arial;
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	margin-left: 10%;
+ 	margin-right: 10%;
+ 	line-height: 32px;
+ }
+
+ /* -------- Section 'Feature' ------ */ 
+
+section.feature{
+	min-height: 300px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+section.feature div{
+	width: 260px;
+	min-height: 210px;
+	display: inline-block;
+	margin-top: 60px;
+	margin-right: 32px;
+	margin-left: 32px
+}
+
+section.feature div h3{
+	font: 22px Arial;
+	color: #2d3950;
+	margin:20px 0px 20px 0px;
+}
+
+section.feature div p{
+	color: #999999;
+	font: 15px Arial;
+	line-height: 20px;
+}
+
+/* -------- section with 'Portfolio'  --------- */
+
+section.portfolio{
+	width: 100%;
+	min-height: 850px;
+	background-color: #f6f9f9;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+section.portfolio h2{
+	color: #2d3950;
+	font:41px Arial;
+	text-align: center;	
+	margin-top: 73px;
+}
+
+section.portfolio p{
+	font: 15px Arial;
+	color: #999999; 
+	text-align: center;	
+	margin-top: 16px;
+	margin-bottom: 50px;
+}
+
+/* --------- 6 blocks with image ------ */
+
+section.portfolio a{
+	width:360px;
+	height: 260px;
+	display: inline-block;
+	margin-top: 27px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* ----- URL image for portfolio ------- */
+
+section.portfolio a.first{
+	background-image: url(IMG/first.jpg);
+	background-repeat: no-repeat;
+}
+section.portfolio a.second{
+	background-image: url(IMG/second.jpg);
+	background-repeat: no-repeat;
+}
+section.portfolio a.third{
+	background-image: url(IMG/third.jpg);
+	background-repeat: no-repeat;
+}
+section.portfolio a.fours{
+	background-image: url(IMG/fours.jpg);
+	background-repeat: no-repeat;
+}
+section.portfolio a.fifth{
+	background-image: url(IMG/fifth.jpg);
+	background-repeat: no-repeat;
+}
+section.portfolio a.six{
+	background-image: url(IMG/six.jpg);
+	background-repeat: no-repeat;
+}
+
+section.portfolio a:hover{
+	width:360px;
+	height: 260px;
+	display: inline-block;
+	margin-top: 27px;
+	margin-left: 15px;
+	margin-right: 15px;
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+/*-------- end of image ------- */  
+
+/* -------- Section 'stay with us' and form ------ */
+
+section.stay_with_us{
+	width: 100%;
+	height: 700px;
+	float: left;
+	background-image: url(IMG/bg_stay_with_us.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.stay_with_us h2{
+	font: 41px Arial;
+	text-align: center;
+	color: white;
+	margin-top: 70px;
+}
+
+section.stay_with_us p{
+	font: 15px Arial;
+	color: #999999;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom:45px;	
+}
+
+/* --- Form ---- */
+
+form{
+	width: 595px;
+	margin: 10px auto;
+	min-height: 400px;
+}
+
+input{
+	width: 515px;
+	height: 60px;
+	border:none;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	background:none;
+	font: 15px Arial;
+	color: #999999;
+	margin:10px auto 20px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+
+textarea{
+	width: 515px;
+	height: 160px;
+	border:none;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	background:none;
+	resize: none;
+	font: 15px Arial;
+	color: #999999;
+	margin:10px auto 10px auto;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+
+input, textarea{
+	outline: 0 !important;
+}
+
+input:focus, textarea:focus{
+	border:1px solid white;
+}
+
+::-webkit-input-placeholder {color:#999999;}
+::-moz-placeholder          {color:#999999;}/* Firefox 19+ */
+:-moz-placeholder           {color:#999999;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#999999;}
+
+input[placeholder]          {text-overflow:ellipsis;}
+input::-moz-placeholder     {text-overflow:ellipsis;} 
+input:-moz-placeholder      {text-overflow:ellipsis;} 
+input:-ms-input-placeholder {text-overflow:ellipsis;}
+
+input.checkbox{
+	width: 16px;
+	height: 16px;
+	background-color: #99a0a9;
+	margin:0;
+	margin-top: 25px;
+	margin-left: 20px;
+	display: inline;
+}
+
+label{
+	display: inline;
+	font: 15px Arial;
+	color:white;
+	margin-left: 10px;
+}
+
+form button{
+	float: 	right;
+	width: 142px;
+	height: 47px;
+	background:none;
+	border: none;
+	border: 1px solid #15a4fa;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-right:20px;
+	font: 18px Arial;
+	color: white;
+	cursor: pointer;
+}
+
+form button:hover{
+	float: 	right;
+	width: 142px;
+	height: 47px;
+	background-color: #15a4fa;
+	transition: 0.5s;
+	border: none;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-right:20px;
+	font: 18px Arial;
+	color: white;
+	cursor: pointer;
+}
+
+/* ---- FOOTER -----*/
+
+footer{
+	width: 100%;
+	height: 90px;
+	float: left;
+	background-color: #f6f9f9;
+}
+
+footer p{
+	float: left;
+	font: 15px Arial;
+	color: #999999;
+	margin-left: 10%;
+	margin-top: 40px;
+}
+
+footer a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	float: right;
+	margin: 25px 0px 25px 5px;
+}
+
+a.facebook{
+	background-image: url(IMG/facebook_norm.png);
+	background-repeat: no-repeat;
+}
+
+a.twitter{
+	background-image: url(IMG/twitter_norm.png);
+	background-repeat: no-repeat;
+}
+
+a.google{
+	background-image: url(IMG/google_norm.png);
+	background-repeat: no-repeat;
+}
+
+a.linkedin{
+	background-image: url(IMG/linkedin_norm.png);
+	background-repeat: no-repeat;
+	margin-right: 10%;
+}
+
+/* style for Hover */
+
+a.facebook:hover{
+	background-image: url(IMG/facebook_hover.png);
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+
+a.twitter:hover{
+	background-image: url(IMG/twitter_hover.png);
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+
+a.google:hover{
+	background-image: url(IMG/google_hover.png);
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+
+a.linkedin:hover{
+	background-image: url(IMG/linkedin_hover.png);
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+/* end for hover style */

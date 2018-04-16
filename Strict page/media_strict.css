@@ -1,0 +1,263 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@media screen and (max-width: 650px ){
+	div.intro{
+		width: 100%;
+		height: 530px;
+		background-image: url(IMG/bg_intro.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		float: left;
+	}
+
+	h1{
+		font: bold 70px Arial;
+		color: white;
+		text-align: center;
+		margin-top: 15%;
+	}
+	
+	div.intro p{
+		color: white;
+		text-align: center;
+		font: 20px Arial;
+		margin:0 5%;
+	}
+
+	div.intro a.arrow{
+		display: block;
+		width: 20px;
+		height: 12px;
+		background-image: url(IMG/arrow.png);
+		background-repeat: no-repeat;
+		margin:100px auto 0px auto;
+	}
+
+/* section 'simple and pure'  */
+
+	#simple_and_pure{
+		float: left;
+		min-height: 340px;
+		width: 100%;
+		background-color: #f6f9f9;
+	}
+
+	#simple_and_pure h2{
+ 		text-align: center;
+ 		color: #2d3950;
+ 		font: 30px Arial;
+ 		margin-top: 35px;
+ 	}
+
+ 	#simple_and_pure p{
+ 		color: #999999;
+ 		font: 16px Arial;
+ 		text-align: center;
+ 		margin-top: 30px;
+ 		margin-left: 10%;
+ 		margin-right: 10%;
+ 		line-height: 25px;
+ 	}
+
+ /* -------- Section 'Feature' ------ */ 
+
+	section.feature div{
+		width: 260px;
+		min-height: 210px;
+		display: inline-block;
+		margin-top: 30px;
+		margin-right: 32px;
+		margin-left: 32px
+	}
+
+	section.feature div h3{
+		font: 18px Arial;
+		color: #2d3950;
+		margin:20px 0px 20px 0px;
+	}
+
+/* -------- section with 'Portfolio'  --------- */
+
+	section.portfolio h2{
+		color: #2d3950;
+		font:30px Arial;
+		text-align: center;	
+		margin-top: 35px;
+	}
+
+	section.portfolio p{
+		margin-bottom: 20px;
+	}
+
+/* -------- Section 'stay with us' and form ------ */
+	
+	section.stay_with_us{
+		width: 100%;
+		height: 575px;
+		float: left;
+		background-image: url(IMG/bg_stay_with_us.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	section.stay_with_us h2{
+		font: 30px Arial;
+		text-align: center;
+		color: white;
+		margin-top: 35px;
+	}
+
+	section.stay_with_us p{
+		margin-bottom: 25px;
+	}
+/* --- Form ---- */
+
+	form{
+		width: 90%;
+		margin: 10px auto;
+		min-height: 300px;
+	}
+
+	input{
+		width: 100%;
+		height: 30px;
+		border:none;
+		border: 1px solid #999999;
+		border-radius: 4px;
+		background:none;
+		padding: 0;
+	}
+
+	textarea{
+		width: 100%;
+		height: 100px;
+		border:none;
+		border: 1px solid #999999;
+		border-radius: 4px;
+		background:none;
+		padding: 0;
+		padding-top: 10px;
+	}
+
+	label{
+		display: inline;
+		font: 12px Arial;
+		color:white;
+		margin-left: 10px;
+	}
+
+}
+@media screen and (max-width: 450px ){
+
+/* --------- 6 blocks with image ------ */
+
+	section.portfolio h2{
+		color: #2d3950;
+		font:30px Arial;
+		text-align: center;	
+		margin-top: 35px;
+	}
+
+	section.portfolio a{
+		width:90%;
+		height: 260px;
+		display: inline-block;
+		margin-top: 27px;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-position: center;
+	}
+
+	section.portfolio a:hover{
+		width:90%;
+		height: 260px;
+		display: inline-block;
+		margin-top: 27px;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-position: center;
+		opacity: 0.6;
+		transition: 0.5s;
+	}
+
+/* secion with form */
+
+	section.stay_with_us{
+		height: 500px;
+	}
+
+	input.checkbox{
+		width: 16px;
+		height: 16px;
+		background-color: #99a0a9;
+		margin:0;
+		margin-top: 25px;
+		margin-left: 0px;
+		margin-bottom: 15px;
+		display: inline;
+	}
+
+	label{
+		display: inline;
+		font: 15px Arial;
+		color:white;
+		margin-left: 10px;
+	}
+
+	form button{
+		float: left;
+		width: 142px;
+		height: 47px;
+		background:none;
+		border: none;
+		border: 1px solid #15a4fa;
+		border-radius: 4px;
+		margin-top: 10px;
+		margin-right:40px;
+		font: 18px Arial;
+		color: white;
+		cursor: pointer;
+	}
+
+	form button:hover{
+		float: left;
+		width: 142px;
+		height: 47px;
+		background:none;
+		border: none;
+		border: 1px solid #15a4fa;
+		background-color: #15a4fa;
+		transition: 0.5s;
+		border-radius: 4px;
+		margin-top: 10px;
+		margin-right:40px;
+		font: 18px Arial;
+		color: white;
+		cursor: pointer;
+	}
+
+/* footer */
+
+	footer{
+		width: 100%;
+		min-height: 150px;
+		float: left;
+		background-color: #f6f9f9;
+	}
+
+	footer p{
+		float: none;
+		text-align: center;
+		font: 15px Arial;
+		color: #999999;
+		margin:40px auto 0px auto;
+	}
+	
+	footer div{
+		margin-right: 17%;
+	}
+
+}

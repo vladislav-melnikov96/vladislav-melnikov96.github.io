@@ -1,0 +1,216 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+@media screen and (max-width: 720px){
+
+	header{
+		width: 100%;
+		height: 500px;
+		background-image: url(img/header_bg.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header nav{
+		display: block;
+		margin-top:0px;
+	}
+
+	header nav ul{
+		display: inline-block;
+	}
+
+	header nav ul li{
+		text-align: center;
+	}
+
+	header h1{
+		clear: both;
+		font: italic 34px 'Montserrat', serif;
+		text-align: center;
+		color: white;
+		padding-top: 90px;
+	}
+
+	header h2{
+		margin-top: 0px;
+		margin-top: 15px;
+		text-align: center;
+		font: bold 50px 'Montserrat', sans-serif;
+		color: white;
+		padding-left: px;
+		padding-right: px;
+	}
+
+	/* ----- link on connect with me ----*/ 
+
+	a.connect{
+		width: 200px;
+		height: 45px;
+		display: block;
+		border: 1px solid #fed136;
+		text-transform: uppercase;
+		color: white;
+		font:12px 'Montserrat', sans-serif;
+		letter-spacing: 2px;
+		text-align: center;
+		margin: 30px auto 0px auto;
+		line-height: 46px;
+		text-decoration: none;
+		border-radius: 4px;
+	}
+
+	a.connect:hover{
+		width: 200px;
+		height: 45px;
+		display: block;
+		border: 1px solid #fed136;
+		text-transform: uppercase;
+		color: white;
+		font:14px 'Montserrat', sans-serif;
+		letter-spacing: 2px;
+		text-align: center;
+		margin: 30px auto 0px auto;
+		line-height: 46px;
+		text-decoration: none;
+		background-color: #fed136;
+		transition: 0.5s;
+		border-radius: 4px;
+	}
+
+	/* technology */ 
+
+	#technology h2{
+		text-align: center;
+		color: #222222;
+		font:bold 34px 'Montserrat', sans-serif;
+		margin-top: 40px;
+	}
+
+	/* section with portfolio */
+
+	h2{
+		text-align: center;
+		color: #222222;
+		font:bold 34px 'Montserrat', sans-serif;
+		margin-top: 40px;
+	}
+
+	/* section with contacts */
+
+	#contact h2{
+		text-align: center;
+		color: white;
+		font:bold 34px 'Montserrat', sans-serif;
+		margin-top: 40px;
+	}
+}
+
+/* media of 470px width */
+
+@media screen and (max-width: 470px){
+	
+	header nav ul li{
+		margin-left: 10px;
+	}
+
+	header nav ul li a{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+		font: 13px 'Montserrat', sans-serif;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-bottom: 3px;
+	}
+
+	nav ul li a:hover{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #fed136;
+		transition: 0.2s;
+		border-bottom: 1px solid #fed136;
+		font: 13px 'Montserrat', sans-serif;
+	}
+
+	header h1{
+		clear: both;
+		font: italic 25px 'Montserrat', serif;
+		text-align: center;
+		color: white;
+		padding-top: 50px;
+	}
+
+	header h2{
+		margin-top: 0px;
+		margin-top: 15px;
+		text-align: center;
+		font: bold 40px 'Montserrat', sans-serif;
+		color: white;
+	}
+
+	#technology h2{
+		text-align: center;
+		color: #222222;
+		font:bold 28px 'Montserrat', sans-serif;
+		margin-top: 40px;
+	}
+
+	#technology div{
+		width: 200px;
+		height: 160px;
+		display: inline-block;
+		margin:40px 50px 50px 50px;
+	}
+
+	#portfolio h2{
+		text-align: center;
+		color: #222222;
+		font:bold 28px 'Montserrat', sans-serif;
+		margin-top: 40px;
+	}
+
+	#portfolio div{
+		width: 290px;
+		height: 390px;
+		display: inline-block;
+		margin: 40px 30px 10px 30px;
+		background-color: none;
+	}
+	
+	#contact{
+		float: left;
+		width: 100%;
+		height: 280px;
+		background-image: url(img/contact_bg.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		text-align: center;
+	}
+
+	#contact h2{
+		text-align: center;
+		color: white;
+		font:bold 28px 'Montserrat', sans-serif;
+		margin-top: 40px;
+	}
+
+	#contact ul li{
+		font: 18px 'Montserrat', sans-serif;
+		color: #fed136;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 367px){
+
+	#portfolio div{
+		width: 80%;
+		height: 390px;
+		display: inline-block;
+		margin: 40px 0px 10px 0px;
+		background-color: none;
+	}
+}
